@@ -1,14 +1,14 @@
 # sdsc-bootcamp-smash-draft
 
-## Agenda for daily checkin
+## Agenda for morning checkin
 
 - Mon: brainstorm research questions; choose data; draft chapters and distribute individual tasks for first half, including data collection and initial exploration;
 - Tue: checkpoint for 1st half; draft 2nd half chapter
 - Wed: first draft for analysis, ploting, and storytelling
 - Thu: Rehearsal for time recording
-- Fri: RR environment setip and final proofread
+- Fri: RR environment setup and final proofread
 
-## Daily progress tracker
+## Evening progress report tracker
 - Mon:
 - Tue:
 - Wed:
