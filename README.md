@@ -24,16 +24,23 @@
   - Dataset: restaurant point (~2200 in total); relation to metro station
   - Analysis (Package used):
     - Data preparation for OSM POI (requests/json) See the notebook POIs.ipynb (Mengyu)
-    - Geocoding (GeoPy) (Victor)
-    - Numerical calcuation: density (Numpy) (Mengyu)
-    - Reprojection (pyproj) (Ushashi)
     - Buffer/Join/Aggregration (GeoPandas/Pandas) (Mengyu)
-    - Walkshed (OSMnx/networkx/shapely/alphashape?) and interactive mapping [WMATA walkshed](https://www.mwcog.org/newsroom/2019/07/16/walksheds-show-planners-how-easily-people-can-walk-to-transit/) (Janna/Zheng) 
-    - NDVI calculation / Green space (Rasterio/rasterstats) (Janna will share)
+    - Numerical calcuation: density (Numpy/Geopandas) (Mengyu)
+    - Reprojection to the diff between projected and native mapping (pyproj/Geopandas) (Mengyu)
+    
+    - Walkshed (OSMnx/networkx/shapely/alphashape?) and interactive mapping [WMATA walkshed](https://www.mwcog.org/newsroom/2019/07/16/walksheds-show-planners-how-easily-people-can-walk-to-transit/) (Janna/Zheng)
+    - Food location density by each walkshed. (Spatial operation) (Open practice?)
+    - Accessibility to each restaurant by calculating spatial weights of metro / bike share / parking lot
+    - NDVI calculation / Green space (Rasterio/rasterstats) (Janna)
     - Hotspot Analysis (PySAL) (Ushashi)
     - Plotting (Folium / leafmap / matplotlib) (Victor)
   - Slides: Outline (Zheng) / Template (Janna)
 - Wed: first draft for analysis, ploting, and storytelling
+  - Mengyu would lead orchestration of the jupyter notebook.
+  - Janna share the walkshed code to Mengyu and calculate NDVI.
+  - Ushashi would lead hotspot analysis that refer the [previous code](https://github.com/willgeary/PythonSpatialDataScience/blob/main/notebook.ipynb)
+  - Victor would lead plotting / mapping.
+  - Zheng will keep working on the slides and backup notebook composing.
 - Thu: Rehearsal for time recording
 - Fri: RR environment setup and final proofread
 
